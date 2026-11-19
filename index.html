@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noob Mods</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ff9f43'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%232a1500' font-family='Arial' font-weight='bold'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="top">
+  <h1>Noob Mods</h1>
+</header>
+
+<section class="hero">
+  <h2>Addons, packs and worlds for Minecraft Bedrock</h2>
+  <p>Free downloads, updated often.</p>
+</section>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-cat="addons"><i class="ti ti-puzzle"></i>Addons</button>
+  <button class="tab" data-cat="texture-packs"><i class="ti ti-palette"></i>Texture packs</button>
+  <button class="tab" data-cat="worlds"><i class="ti ti-world"></i>Worlds</button>
+  <button class="tab" data-cat="apps"><i class="ti ti-device-mobile"></i>Apps</button>
+</nav>
+
+<div class="searchbox">
+  <i class="ti ti-search"></i>
+  <input id="search" type="search" placeholder="Search anything...">
+</div>
+
+<main>
+  <div class="head">
+    <b id="heading">Addons</b>
+    <span id="count"></span>
+  </div>
+  <div id="list" class="list"></div>
+</main>
+
+<footer>Not an official Minecraft product. Not affiliated with Mojang or Microsoft.</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
